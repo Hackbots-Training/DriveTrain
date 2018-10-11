@@ -32,7 +32,6 @@ public class Robot extends IterativeRobot {
 	TalonSRX lb = new TalonSRX(2);
 	TalonSRX rb = new TalonSRX(3);
 	Joystick left = new Joystick(0);
-	Joystick right = new Joystick(1);
 
 
 	/**
@@ -86,10 +85,10 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void teleopPeriodic() {
-		lf.set(ControlMode.PercentOutput, left.getY());
-		lb.set(ControlMode.PercentOutput, left.getY());
-		rf.set(ControlMode.PercentOutput, right.getY());
-		rb.set(ControlMode.PercentOutput, right.getY());
+		lf.set(ControlMode.PercentOutput, );
+		lb.set(ControlMode.PercentOutput, );
+		rf.set(ControlMode.PercentOutput, );
+		rb.set(ControlMode.PercentOutput, );
 
 	}
 
